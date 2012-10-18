@@ -1,4 +1,4 @@
 ScnSocialAuthDoctrineMongoODM
 =============================
 
-An extension of ScnSocialAuth that provides integration with Doctrine Mongo ODM
+An extension of [ScnSocialAuth](https://github.com/SocalNick/ScnSocialAuth) that provides integration with Doctrine2 Mongo ODM.
