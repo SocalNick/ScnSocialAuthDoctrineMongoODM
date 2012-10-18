@@ -13,8 +13,8 @@ use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
 
 /**
- * @category   ScnSocialAuthDoctrineORM
- * @package    ScnSocialAuthDoctrineORM_Service
+ * @category   ScnSocialAuthDoctrineMongoODM
+ * @package    ScnSocialAuthDoctrineMongoODM_Service
  */
 class ModuleOptionsFactory implements FactoryInterface
 {
