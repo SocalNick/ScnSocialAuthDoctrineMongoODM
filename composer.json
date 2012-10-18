@@ -1,5 +1,5 @@
 {
-    "name": "jhuet/scn-social-auth-doctrine-mongo-odm",
+    "name": "socalnick/scn-social-auth-doctrine-mongo-odm",
     "description": "An extension of ScnSocialAuth that provides integration with Doctrine2 Mongo ODM.",
     "type": "library",
     "keywords": ["zf2", "doctrine2", "mongodb", "odm", "zfc", "oauth", "socialauth", "hybridauth"],
