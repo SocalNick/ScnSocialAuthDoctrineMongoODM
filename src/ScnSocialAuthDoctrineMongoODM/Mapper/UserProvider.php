@@ -27,9 +27,9 @@ class UserProvider extends AbstractDbMapper implements UserProviderInterface
 
     public function findUserByProviderId($providerId, $provider)
     {
-        $er = $this->dm->getRepository($this->options->getUserProviderEntityClass());
-        $entity = $er->findOneBy(array('providerId' => $providerId, 'provider' => $provider));
-        return $entity;
+        $dr = $this->dm->getRepository($this->options->getUserProviderEntityClass());
+        $document = $dr->findOneBy(array('providerId' => (string) $providerId, 'provider' => $provider));
+        return $document;
     }
 
     public function insert($document, $tableName = null, HydratorInterface $hydrator = null)
