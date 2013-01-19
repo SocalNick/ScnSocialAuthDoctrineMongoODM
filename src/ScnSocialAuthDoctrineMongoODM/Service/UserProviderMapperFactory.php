@@ -25,9 +25,7 @@ class UserProviderMapperFactory implements FactoryInterface
         $entityClass = $options->getUserProviderEntityClass();
 
         $mapper = new UserProvider($services->get('doctrine.documentmanager.odm_default'), $services->get('ScnSocialAuth-ModuleOptions'));
-//        $mapper->setDbAdapter($services->get('ScnSocialAuth_ZendDbAdapter'));
         $mapper->setEntityPrototype(new $entityClass);
-//        $mapper->setHydrator(new Hydrator\ClassMethods);
 
         return $mapper;
     }
