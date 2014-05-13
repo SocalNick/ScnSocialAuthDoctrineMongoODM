@@ -1,0 +1,32 @@
+{
+    "name": "jhuet/scn-social-auth-doctrine-mongo-odm",
+    "description": "An extension of ScnSocialAuth that provides integration with Doctrine2 Mongo ODM.",
+    "type": "library",
+    "keywords": ["zf2", "doctrine2", "mongodb", "odm", "zfc", "oauth", "socialauth", "hybridauth"],
+    "homepage": "https://github.com/SocalNick/ScnSocialAuthDoctrineMongoODM.git",
+    "authors": [ {
+        "name": "Nicholas Calugar",
+        "email": "njcalugar@gmail.com",
+        "homepage": "http://socalnick.github.com/",
+        "role": "Developer"
+    }, {
+        "name": "Jérémy Huet",
+        "email": "jeremy.huet+github@gmail.com",
+        "homepage": "http://glpl.us/jhuet",
+        "role": "Developer"
+    } ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+        "socalnick/scn-social-auth": "1.*",
+        "zf-commons/zfc-user-doctrine-mongo-odm": "~0.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "ScnSocialAuthDoctrineMongoODM": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
